@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+       <!--IOC，利用spring创建对象-->
+       <bean id="helloservice" class="example.springex.HelloServiceImpl">
+              <!--依赖注入，DI-->
+              <property name="name" value="zzf.spring"></property>
+              <!-- 通过set构造器知道有名为name的属性 -->
+       </bean>
+</beans>
