@@ -1,4 +1,4 @@
-package example.springex;
+package springex;
 
 /**
  * Created by flying on 2017/2/11.
@@ -8,7 +8,7 @@ public class HelloServiceImpl implements IHelloService {
 
     @Override
     public void sayHello() {
-        System.out.printf("Hello"+name);
+        System.out.printf("Hello" + name);
     }
 
     @Override
